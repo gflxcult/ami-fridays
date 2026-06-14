@@ -1,7 +1,7 @@
 // /api/next-event.js
 // Vercel serverless function — proxies Eventbrite API to avoid CORS issues.
 // Required environment variables (set in Vercel dashboard):
-//   EVENTBRITE_ORG_ID     — your organiser ID
+//   EVENTBRITE_ORGANIZER_ID     — your organiser ID
 //   EVENTBRITE_TOKEN      — your private OAuth token
 
 export default async function handler(req, res) {
